@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg_css{
+    background-color: rgba(44, 62, 80) !important;
+}
+.navbar-ul a:hover{
+    color: #17b495 !important;
+
+}
+.bg-header{
+    background-color:#17b495 !important ;
+}
+.h1-text{
+    font-size: 4rem !important;
+}
+.divider-custom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.divider-custom-line{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+.divider-custom-line2{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: rgb(49, 49, 49);
+    border-radius: 1rem;
+}
+.portfolio-item{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.portfolio-item .portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+  }
+ .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+  .img-fluid{
+    width: 100%;
+    height: auto;
+}
+.about-bg{
+    background-color: rgba(26, 188, 156, 0.9);
+    
+}
+.about-text{
+    margin: 5px 20px;
+    
+    font-size: 20px !important;
+
+}
+footer{
+    background-color: rgba(44, 62, 80) !important;
+}
