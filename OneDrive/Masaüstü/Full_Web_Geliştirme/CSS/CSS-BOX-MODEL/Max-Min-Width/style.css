@@ -1,0 +1,12 @@
+.box{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    /* min-width: 300px;
+    max-width: 600px; */
+    border-radius: 20px;
+    border: 2px solid rgb(77, 77, 233);
+   box-shadow:  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   overflow: scroll;
+   overflow-x: auto;
+}

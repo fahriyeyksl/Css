@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+  
+}
+.container{
+    width: 20%;
+    height: 100vh;
+    margin-left: 1%;
+    background-color: #9e9d9d35;
+    position: fixed;
+   
+}
+.img-box{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+
+}
+.img-box img{
+    width: 50%; 
+    height: 50%; 
+    margin-top: 10%;
+    border-radius: 50%;
+    transform: translateX(50%);
+
+}
+
+.info-box{
+    position: relative;
+    top: 25%;
+    left: 2%;
+}
+.içerik {
+    position: fixed; /* Sayfanın container dışındaki kısmını sabitlemek için */
+    top: 0; /* Sayfanın en üstüne yerleştir */
+    left: 25%; /* Container'ın sağ tarafından başlat */
+    width: 79%; /* Container dışındaki kısmın genişliği */
+    height: 100vh; /* Sayfanın tamamını kapla */
+    padding-top: 2%; /* Sayfanın en üstünden başlat */
+   display: block;
+}
+p, li{
+    font-size: 20px;
+}
+.card{
+    left: 50px;
+    padding: 1%;
+    margin-bottom: 20px;
+    width: 80%;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#items{
+    color: rgb(54, 45, 75); /* rgb(54, 45, 75),0.7; */
+    opacity: 0.7;
+    text-align: center;
+}
+ul{
+    color: rgb(58, 57, 49);
+}
+span{
+    color: blue;
+}
+div{
+    color: blue;
+    border: 1px solid red;
+    /* width: 300px;
+    height: 300px; */
+    font-weight: bold;
+}
+p{
+    border: inherit;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ol{
+    border: inherit;
+}
+.letter_spacing{
+    letter-spacing: 2px;
+    color: brown;
+    font-size: medium;
+    font-weight: 500;
+    word-spacing: 10px;
+    line-height: 50px;
+}
+// <uniquifier>: Use a uniquifier for the class name
+
+.honk {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}

@@ -1,0 +1,5 @@
+.custom-img {
+    width: 300px; /* İstediğiniz genişlik */
+    height: 200px; /* İstediğiniz yükseklik */
+    object-fit: cover; /* Resmin kesilmeden uyumlu şekilde yerleştirilmesini sağlar */
+}

@@ -1,0 +1,32 @@
+p{
+    border: 2px solid black;
+    background-color: rgb(82, 82, 205);
+    margin: 30px;
+    font-size: 30px;
+    position: static;
+    top: 50px;
+}
+
+
+#middle{
+    position: static;
+    top: 50px;
+    left: 50px;
+   
+}
+
+.box{
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    display: flex;
+    position: relative;
+}
+.box span{
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input[type='text']{
+    border: 1px solid rebeccapurple;
+}
+p{
+    color: black;
+}
+input[type="checkbox"]{
+    margin-right: 30px;
+}
+
+h1,h2{
+  color: blue;
+}
+ul span{
+  color: yellowgreen;
+}
+ol > li{
+    border: 2px solid pink;
+}
+ul#summarylist{
+    color: red;
+}
+h2#summary{
+    color: red;
+}

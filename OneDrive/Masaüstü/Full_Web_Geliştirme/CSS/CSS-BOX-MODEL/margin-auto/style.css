@@ -1,0 +1,16 @@
+.generalTitle{
+
+}
+.title{
+
+}
+#container{
+    background-color: blueviolet;
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+}
+#container h2{
+    text-align: center;
+    margin: auto;
+}

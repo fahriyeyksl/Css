@@ -1,0 +1,17 @@
+header{
+    margin: auto;
+    padding: 4px solid black 2rem;
+    width: 400px;
+    height: 400px;
+}
+#stil{
+    text-shadow: 0 -10px pink, 0 -5px aqua, 0 5px purple;
+}
+p{
+
+    font-family: "Roboto", sans-serif;
+}
+.klas{
+    width: 400px;
+    height: 400px;
+}
