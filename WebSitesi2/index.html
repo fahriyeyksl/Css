@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        Navigation Bar
+    -->
+    <header id="headerDiv" class="navbar">
+        <div onclick="toggle()" class="mobil-icon">
+            <img src="icon.jpg" width="50px" height="50px" alt="">
+        </div>
+        <div class="img-div">
+            <img src="1.jpg" alt="" style="width: 32px; height: 32px;">
+        </div>
+         <div id="navDiv" class="mobil-linkopen">
+            <div class="navbar-link mobil-link">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+        </div>
+         </div>
+    </header>
+    <header class="efsane-bar">
+        <div class="bar-text">
+            <h2>Efsane Bar</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laboriosam itaque illum quaerat optio corporis inventore tempore rerum, ratione doloremque vero neque, quis voluptas dolor sapiente modi laborum necessitatibus magni.</p>
+
+        </div>
+    </header>
+    <div class="img-div" >
+        <div class="card-img">
+            <img src="1.jpg" alt="">
+            <h3>Lorem, ipsum.</h3>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, totam?</p>
+        </div>
+        <div class="card-img">
+            <img src="2.jpg" alt="">
+            <h3>Lorem, ipsum.</h3>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, totam?</p>
+        </div>
+        <div class="card-img">
+            <img src="3.jpg" alt="">
+            <h3>Lorem, ipsum.</h3>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, totam?</p>
+        </div>
+        <div class="card-img">
+            <img src="4.jpg" alt="">
+            <h3>Lorem, ipsum.</h3>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, totam?</p>
+        </div>
+
+    </div>
+    <!--
+        Form 
+    -->
+    <form class="form-card">
+        <label>Ad</label>
+        <input type="text" name="firstname" placeholder="Adınızı giriniz">
+        <label>Soyad</label>
+        <input type="text" name="lastname" placeholder="Soyadınızı giriniz">
+        <label for="country">Ülke</label>
+        <select name="country" id="">
+            <option value="tr">Türkiye</option>
+            <option value="fr">Fransa</option>
+            <option value="en">İngiltere</option>
+        </select>
+        <input type="submit" value="kaydet">
+    </form>
+    <footer>
+        <h3>Frontend && Tüm Hakları saklıdır</h3>
+    </footer>
+    <script>
+        function toggle() {
+            let x = document.getElementById("navDiv");
+            let y = document.getElementById("headerDiv");
+
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.height = "auto";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

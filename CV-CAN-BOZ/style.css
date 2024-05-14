@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navSection{
+    
+    background-color: darkmagenta;
+    min-height: 90vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+}
+.navbarlink a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 25px;
+}
+.content{
+    background-color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 16px 24px;
+    color: darkmagenta;
+}
+.content:hover{
+    opacity: 0.8;
+}
+.personeldiv{
+    padding: 0px 20%;
+}
+.title{
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 30px 0px;
+    color: #fff;
+}
+.aboutme{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.aboutme p{
+    width: 50%;
+}
+.list{
+    display: flex;
+  width: 50%;
+  list-style: none;
+}
+.list li{
+    padding: 5px;
+}
+.blog{
+    padding: 64px 20%;
+}
+.angularTitle{
+    font-size: 60px;
+
+}
+.blogtext{
+    
+}
+.blogtext h2{
+   font-weight: 600;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+.blogtext p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.lesson{
+    background-color: grey;
+    padding: 64px 20%;
+}
+.lessoniçerik{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 20px 0px;
+}
+.lessontitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.date{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.footer{
+    background-color: black;
+    padding: 64px;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .footercontent{
+    text-align: center;
+  }
