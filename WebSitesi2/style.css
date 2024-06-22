@@ -110,12 +110,12 @@ footer{
     .img-div {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Ekleme: Kartları dikey olarak hizalamak için */
+        align-items: center; 
     }
     .card-img {
-        width: 80%; /* Ekleme: Kartları ekran genişliğinin 80%'i kadar yapmak */
-        margin-bottom: 20px; /* Ekleme: Kartlar arasında boşluk bırakmak */
-        margin-right: 0; /* Değişiklik: Sağ kenar boşluğunu kaldır */
+        width: 80%; 
+        margin-bottom: 20px; 
+        margin-right: 0; 
     }
     .form-card{
         width: 100%;
